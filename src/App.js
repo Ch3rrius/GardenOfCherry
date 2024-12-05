@@ -13,14 +13,17 @@ const App = () => {
     : games.filter(game => game.year === selectedYear);
 
   return (
-    <div className="app">
-      <YearFilter
-        years={["All", ...new Set(games.map(game => game.year))]} // Generate years dynamically
-        selectedYear={selectedYear}
-        onYearChange={setSelectedYear}
-      />
-      <GamesGrid games={filteredGames} />
-    </div>
+    <div className="webapp">
+      <h1 style={{ textAlign: 'center' }}>THE GARDEN OF CHERRY</h1>
+      <div className="app">
+        <YearFilter
+          years={["All", ...new Set(games.map(game => game.year))]} // Generate years dynamically as needed from data.js
+          selectedYear={selectedYear}
+          onYearChange={setSelectedYear}
+        />
+        <GamesGrid games={filteredGames} />
+      </div>
+      </div>
   );
 };
 

@@ -10,7 +10,7 @@ const GameCard = ({ game }) => {
       rel="noopener noreferrer"
     >
       <img src={game.image} alt={game.name} />
-      <div className="game-name">{game.name}</div>
+      {/*<div className="game-name">{game.name}</div>*/}
     </a>
   );
 };
