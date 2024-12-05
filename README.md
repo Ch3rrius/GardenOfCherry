@@ -11,4 +11,5 @@ Future Upgrades:
 
 **0.1.1**: HTTPS enforced
 
+---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
