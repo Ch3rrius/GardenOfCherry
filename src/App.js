@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import YearFilter from './components/YearFilter';
+import GamesGrid from './components/GamesGrid';
+import { games } from './data';
 import './App.css';
 
-function App() {
+const App = () => {
+  const [selectedYear, setSelectedYear] = useState("All");
+
+  // Filter games based on selected year
+  const filteredGames = selectedYear === "All"
+    ? games
+    : games.filter(game => game.year === selectedYear);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         Credit to Tatsunical for the idea
-        </p>
-        <a
-          className="App-link"
-          href="https://www.twitch.tv/tatsunical"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Tatsunical On Twitch - see "GAMES ARCHIVE" - https://tatsu-games-list.web.app/
-        </a>
-      </header>
+    <div className="app">
+      <YearFilter
+        years={["All", ...new Set(games.map(game => game.year))]} // Generate years dynamically
+        selectedYear={selectedYear}
+        onYearChange={setSelectedYear}
+      />
+      <GamesGrid games={filteredGames} />
     </div>
   );
-}
+};
 
 export default App;
