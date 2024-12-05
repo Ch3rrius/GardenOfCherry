@@ -2,7 +2,8 @@
   "name": "garden_of_cherry",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ieabbas.github.io/GardenOfCherry",
+  //"homepage": "https://ieabbas.github.io/GardenOfCherry",
+  "homepage": "https://thegarden.cherrius.xyz",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
