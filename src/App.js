@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Tatsunical On Twitch - see "GAMES ARCHIVE"
+          Tatsunical On Twitch - see "GAMES ARCHIVE" - https://tatsu-games-list.web.app/
         </a>
       </header>
     </div>
