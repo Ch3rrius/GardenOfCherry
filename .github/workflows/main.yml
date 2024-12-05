@@ -1,4 +1,4 @@
-            - name: Configure GitHub Pages
+  name: Configure GitHub Pages
   uses: actions/configure-pages@v5.0.0
   with:
     # Optional static site generator to attempt to configure: "nuxt", "next", "gatsby", or "sveltekit"
