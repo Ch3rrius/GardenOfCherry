@@ -5,7 +5,6 @@ This project is intended to track the catalog of games I have played on stream, 
 Future Upgrades:
 - Dynamically pulling games and the year they were played by the Twitch API
 - Creating sub dialog boxes that convey stats about the given game, as well as other links on where to watch more content of mine on the game (likely Youtube, possibly links to the Twitch playlist for the game)
-
 - Ability for visitors to leave feedback or reviews on the playthrough as seen on stream or in Youtube videos
 
 Current Version: 0.1.0
