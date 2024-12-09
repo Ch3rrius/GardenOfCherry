@@ -9,7 +9,9 @@ Future Upgrades:
 
 0.1.0
 
-**0.1.1**: HTTPS enforced
+0.1.1: HTTPS enforced
+
+**0.1.2**: Ability to track games played in multiple years added
 
 ---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

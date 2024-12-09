@@ -23,8 +23,8 @@ const App = () => {
 
       <div className="app">
         <YearFilter
-          // Generate years dynamically as needed from data.js
-          years={["All", ...new Set(games.flatMap(game => game.yearsPlayed))]}
+          // Generate years dynamically as needed from data.js, sorted ascending (2017, 2018, etc)
+          years={["All", ...[...new Set(games.flatMap(game => game.yearsPlayed))].sort((a, b) => a - b)]}
           selectedYear={selectedYear}
           onYearChange={setSelectedYear}
         />
