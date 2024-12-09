@@ -10,7 +10,7 @@ const App = () => {
   // Filter games based on selected year
   const filteredGames = selectedYear === "All"
     ? games
-    : games.filter(game => game.year === selectedYear);
+    : games.filter(game => game.yearsPlayed.includes(selectedYear));
 
   return (
     <div className="webapp">
@@ -23,7 +23,8 @@ const App = () => {
 
       <div className="app">
         <YearFilter
-          years={["All", ...new Set(games.map(game => game.year))]} // Generate years dynamically as needed from data.js
+          // Generate years dynamically as needed from data.js
+          years={["All", ...new Set(games.flatMap(game => game.yearsPlayed))]}
           selectedYear={selectedYear}
           onYearChange={setSelectedYear}
         />

@@ -2,7 +2,7 @@ export const games = [
     {
       id: 1,
       name: "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
-      year: "2017",
+      yearsPlayed: ["2017", "2018"],
       releaseYear: "2017",
       //image: "/covers/kh1525_cover.jpg",
       //image: "https://image.api.playstation.com/cdn/UP0082/CUSA05933_00/Mcd5L82dShQ7n5zWfBVNKMAfPgl1kkSz.png",
@@ -12,7 +12,7 @@ export const games = [
     {
       id: 2,
       name: "Bloodborne",
-      year: "2017",
+      yearsPlayed: ["2017", "2023", "2024"],
       releaseYear: "2015",
       //image: "/covers/bloodborne_cover.jpg",
       image: "https://image.api.playstation.com/vulcan/img/rnd/202010/2614/Sy5e8DmeKIJVjlAGraPAJYkT.png",
@@ -21,7 +21,7 @@ export const games = [
     {
       id: 3,
       name: "Outlast",
-      year: "2017",
+      yearsPlayed: ["2018"],
       releaseYear: "2013",
       //image: "/covers/outlast_cover.jpg",
       //image: "https://image.api.playstation.com/cdn/UP2113/CUSA00325_00/M7Xcn9Q7mUkmm3dSilcsbkORlPPiQ0VK.png",
@@ -31,12 +31,11 @@ export const games = [
     {
       id: 4,
       name: "Bioshock Infinite",
-      year: "2017",
+      yearsPlayed: ["2020"],
       releaseYear: "2013",
       //image: "/covers/bioshockInfinite_cover.jpg",
       image: "https://cdn2.steamgriddb.com/grid/b937a56ac2082006f7b0a40ab60fe958.png",
       link: "https://store.steampowered.com/app/8870/BioShock_Infinite/"
     },
-    // Add more games here
   ];
   
