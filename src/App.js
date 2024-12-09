@@ -7,10 +7,11 @@ import './App.css';
 const App = () => {
   const [selectedYear, setSelectedYear] = useState("All");
 
-  // Filter games based on selected year
   const filteredGames = selectedYear === "All"
-    ? games
-    : games.filter(game => game.yearsPlayed.includes(selectedYear));
+  ? games.slice().sort((a, b) => a.name.localeCompare(b.name)) // Sort alphabetically for "All"
+  : games
+      .filter(game => game.yearsPlayed.includes(selectedYear)) // Filter by year
+      .sort((a, b) => a.name.localeCompare(b.name)); // Sort alphabetically
 
   return (
     <div className="webapp">
