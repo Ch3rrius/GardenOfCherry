@@ -20,6 +20,16 @@ export const games = [
     },
     {
       id: 3,
+      name: "Warframe",
+      yearsPlayed: ["2017"],
+      releaseYear: "2013",
+      //image: "/covers/outlast_cover.jpg",
+      //image: "https://image.api.playstation.com/cdn/UP2113/CUSA00325_00/M7Xcn9Q7mUkmm3dSilcsbkORlPPiQ0VK.png",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202401/3018/6005ee4b822b3458fba98170145348f31869d3a771f55ab4.png",
+      link: "https://www.playstation.com/en-us/games/warframe/"
+    },
+    {
+      id: 4,
       name: "Outlast",
       yearsPlayed: ["2018"],
       releaseYear: "2013",
@@ -29,7 +39,17 @@ export const games = [
       link: "https://store.steampowered.com/app/238320/Outlast/"
     },
     {
-      id: 4,
+      id: 5,
+      name: "God of War",
+      yearsPlayed: ["2018"],
+      releaseYear: "2018",
+      //image: "/covers/outlast_cover.jpg",
+      //image: "https://image.api.playstation.com/cdn/UP2113/CUSA00325_00/M7Xcn9Q7mUkmm3dSilcsbkORlPPiQ0VK.png",
+      image: "https://image.api.playstation.com/vulcan/img/rnd/202010/2217/p3pYq0QxntZQREXRVdAzmn1w.png",
+      link: "https://store.playstation.com/en-us/product/UP9000-CUSA07408_00-00000000GODOFWAR"
+    },
+    {
+      id: 100,
       name: "Bioshock Infinite",
       yearsPlayed: ["2020"],
       releaseYear: "2013",
