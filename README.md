@@ -13,7 +13,9 @@ Future Upgrades:
 
 0.1.2: Ability to track games played in multiple years added
 
-**0.1.3**: Games updated to appear alphabetically ascending on each year page
+0.1.3: Games updated to appear alphabetically ascending on each year page
+
+0.1.4: Game covers now maintain aspect ratio and row wrapping, image corners are rounded as well
 
 ---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
