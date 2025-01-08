@@ -8,7 +8,7 @@
   /* Apply a base font and background color for the whole app */
   body {
     font-family: 'Arial', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     background-color: #1e1e1e; /* Dark background to match the gaming theme */
     color: #fff;
     line-height: 1.6;
