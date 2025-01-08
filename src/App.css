@@ -43,23 +43,32 @@
 .games-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Center images in the grid */
-  gap: 20px; /* Spacing between images */
+  justify-content: center;
+  gap: 20px;
   padding: 20px;
+  max-width: 100%; /* Ensures grid scales dynamically */
+}
+
+.game-card {
+  flex: 1 1 calc(25% - 20px); /* Adjust card width dynamically */
+  max-width: 400px; /* Limit maximum size for larger screens */
+  min-width: 200px; /* Prevent images from getting too small */
 }
 
 /* Game card styling */
 .game-card img {
-  width: 400px; /* Fixed width for all game covers */
-  height: 600px; /* Fixed height for portrait aspect ratio */
-  object-fit: cover; /* Maintain aspect ratio and fill the container */
+  width: 100%; /* Makes the image take up the full width of its container */
+  max-width: 400px; /* Sets a maximum width to prevent oversized images */
+  height: auto; /* Ensures the height adjusts proportionately */
+  aspect-ratio: 2 / 3; /* Ensures the aspect ratio remains consistent (portrait) */
+  object-fit: cover; /* Maintains aspect ratio and fills the container */
   border-radius: 10px; /* Rounded corners for aesthetic appeal */
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Add a shadow for depth */
   transition: transform 0.2s ease-in-out; /* Smooth hover animation */
 }
 
 .game-card img:hover {
-  transform: scale(1.05); /* Slight zoom effect on hover */
+  transform: scale(1.03); /* Slight zoom effect on hover */
 }
 
 /* Body and tab layout for wrapping elements */

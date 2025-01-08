@@ -17,5 +17,7 @@ Future Upgrades:
 
 0.1.4: Game covers now maintain aspect ratio and row wrapping, image corners are rounded as well
 
+0.1.5: Game covers now scale to hardware display in 2/3 aspect ratio, hover zoom is reduced, and games added through May 2021
+
 ---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
