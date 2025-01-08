@@ -1,9 +1,13 @@
 .year-filter {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping */
+  justify-content: center;
+  gap: 10px;
+  margin: 0 auto 20px;
+  padding: 0 10px; /* Add padding to avoid edge overflow */
+  max-width: 100%; /* Prevent overflow */
+}
+
   
   .year-button {
     padding: 10px 20px;

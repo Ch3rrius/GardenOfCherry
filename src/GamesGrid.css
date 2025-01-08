@@ -1,7 +1,8 @@
 .games-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 20px;
-    padding: 20px;
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px; /* Slightly reduce gap */
+  padding: 10px; /* Reduce padding to prevent overflow */
+  max-width: 100%; /* Prevent the grid from exceeding viewport width */
+  margin: 0 auto; /* Center the grid within the viewport */
+}
