@@ -7,7 +7,7 @@ export const games = [
       //image: "/covers/kh1525_cover.jpg",
       //image: "https://image.api.playstation.com/cdn/UP0082/CUSA05933_00/Mcd5L82dShQ7n5zWfBVNKMAfPgl1kkSz.png",
       image: "https://preview.redd.it/i-thought-the-default-steam-art-for-hd-1-5-2-5-remix-was-v0-7ar5w9fjzxcd1.png?width=600&format=png&auto=webp&s=3d27031c9b531d7b75d37e3fdd72498870826154",
-      link: "https://store.playstation.com/en-us/product/UP0082-CUSA05933_00-KINGDOMHEART1525"
+      link: "https://amzn.to/4a8mck5"
     },
     {
       id: 2,
@@ -16,7 +16,7 @@ export const games = [
       releaseYear: "2015",
       //image: "/covers/bloodborne_cover.jpg",
       image: "https://image.api.playstation.com/vulcan/img/rnd/202010/2614/Sy5e8DmeKIJVjlAGraPAJYkT.png",
-      link: "https://store.playstation.com/en-us/product/UP9000-CUSA00900_00-BLOODBORNE000000"
+      link: "https://amzn.to/4aawZun"
     },
     {
       id: 3,
@@ -34,7 +34,7 @@ export const games = [
       releaseYear: "2013",
       //image: "/covers/outlast_cover.jpg",
       image: "https://cdn2.steamgriddb.com/thumb/25644b95de790aea9e0cb3d19b17a945.jpg",
-      link: "https://store.steampowered.com/app/238320/Outlast/"
+      link: "https://amzn.to/4fPiFZ6"
     },
     {
       id: 5,
@@ -43,7 +43,7 @@ export const games = [
       releaseYear: "2018",
       //image: "/covers/outlast_cover.jpg",
       image: "https://image.api.playstation.com/vulcan/img/rnd/202010/2217/p3pYq0QxntZQREXRVdAzmn1w.png",
-      link: "https://store.playstation.com/en-us/product/UP9000-CUSA07408_00-00000000GODOFWAR"
+      link: "https://amzn.to/3DHQX3s"
     },
     {
       id: 6,
@@ -52,16 +52,16 @@ export const games = [
       releaseYear: "2012",
       //image: "/covers/outlast_cover.jpg",
       image: "https://image.api.playstation.com/vulcan/img/rnd/202010/1408/unktZ4u5hcQIQtoC6P3BSmrf.jpg",
-      link: "https://store.playstation.com/en-us/product/UP4389-PPSA23807_00-DARKSIDERS2PS5GP"
+      link: "https://amzn.to/4h2p3gP"
     },
     {
       id: 7,
       name: "Grand Theft Auto V",
-      yearsPlayed: ["2019"],
+      yearsPlayed: ["2019", "2021"],
       releaseYear: "2013",
       //image: "/covers/outlast_cover.jpg",
       image: "https://image.api.playstation.com/cdn/UP1004/CUSA00419_00/bTNSe7ok8eFVGeQByA5qSzBQoKAAY32R.png",
-      link: "https://store.playstation.com/en-us/product/UP1004-PPSA03420_00-GTAOANDSPUPGRADE"
+      link: "https://amzn.to/4h56VTE"
     },
     {
       id: 8,
@@ -79,7 +79,7 @@ export const games = [
       releaseYear: "2019",
       //image: "/covers/outlast_cover.jpg",
       image: "https://image.api.playstation.com/vulcan/img/cfn/11307wMjfgx5P1og84rPU_f7JRWHhWnbDWqpjfHfMPGtwxykE12sZmu8C7n0XrhYwLTdxcQyXwH4Jy4JpS67tQd5Gl0Kd5Rz.png",
-      link: "https://store.playstation.com/en-us/product/UP4581-CUSA16285_00-THEOUTERWORLDS01"
+      link: "https://amzn.to/3C0aDPm"
     },
     {
       id: 10,
@@ -88,7 +88,7 @@ export const games = [
       releaseYear: "2017",
       //image: "/covers/outlast_cover.jpg",
       image: "https://image.api.playstation.com/cdn/UP2113/CUSA06623_00/5vXtP0O5fmnnyrNnWAinTz57d04szG3b.png",
-      link: "https://store.playstation.com/en-us/product/UP2113-CUSA06623_00-OUTLAST200000000"
+      link: "https://amzn.to/4fPiFZ6"
     },
     {
       id: 11,
@@ -97,12 +97,12 @@ export const games = [
       releaseYear: "2018",
       //image: "/covers/outlast_cover.jpg",
       image: "https://image.api.playstation.com/vulcan/ap/rnd/202011/0402/C784xeOFo2wViCf4m5bxgoeH.png",
-      link: "https://store.playstation.com/en-us/product/UP9000-CUSA02299_00-MARVELSSMGOTY000"
+      link: "https://amzn.to/40myEJM"
     },
     {
       id: 12,
       name: "Call of Duty Warzone",
-      yearsPlayed: ["2020"],
+      yearsPlayed: ["2020", "2021"],
       releaseYear: "2020",
       //image: "/covers/outlast_cover.jpg",
       image: "https://image.api.playstation.com/vulcan/ap/rnd/202306/2400/ac505d57a46e24dd96712263d89a150cb443af288c025ff2.jpg",
@@ -115,7 +115,7 @@ export const games = [
       releaseYear: "2013",
       //image: "/covers/outlast_cover.jpg",
       image: "https://image.api.playstation.com/cdn/UP2047/CUSA01164_00/LqyA3sDAiQRkdxlVtnh6jxUYmQVL1J9S.png",
-      link: "https://store.playstation.com/en-us/product/UP2047-CUSA01164_00-DIGISAINTSROW4NG"
+      link: "https://amzn.to/3DP9Hhp"
     },
     {
       id: 14,
@@ -124,16 +124,16 @@ export const games = [
       releaseYear: "2019",
       //image: "/covers/outlast_cover.jpg",
       image: "https://image.api.playstation.com/vulcan/img/rnd/202105/1714/WHeOu95nW2SZQy6H5IKgE2Bg.png",
-      link: "https://store.playstation.com/en-us/product/UP0006-PPSA02198_00-RESPAWNSWBIRDDOG"
+      link: "https://amzn.to/40atXS0"
     },
     {
       id: 15,
       name: "Spyro Reignited Trilogy",
-      yearsPlayed: ["2020"],
+      yearsPlayed: ["2020", "2021"],
       releaseYear: "2018",
       //image: "/covers/outlast_cover.jpg",
       image: "https://image.api.playstation.com/cdn/UP0002/CUSA12125_00/wQimEr4XlJnBh9zJL6h8vwIoB919zvRy.png",
-      link: "https://store.playstation.com/en-us/product/UP0002-CUSA12125_00-SPYROTRILOGY0001"
+      link: "https://amzn.to/4gM4cyu"
     },
     {
       id: 16,
@@ -142,7 +142,7 @@ export const games = [
       releaseYear: "2013",
       //image: "/covers/bioshockInfinite_cover.jpg",
       image: "https://cdn2.steamgriddb.com/grid/b937a56ac2082006f7b0a40ab60fe958.png",
-      link: "https://store.steampowered.com/app/8870/BioShock_Infinite/"
+      link: "https://amzn.to/4j3Mwjx"
     },
     {
       id: 17,
@@ -151,7 +151,7 @@ export const games = [
       releaseYear: "2018",
       //image: "/covers/outlast_cover.jpg",
       image: "https://image.api.playstation.com/vulcan/img/rnd/202010/2119/wl4DB5QGzlEHAXy1KLUVgOAu.png",
-      link: "https://store.playstation.com/en-us/product/UP9000-CUSA08344_00-DETROIT000000001"
+      link: "https://amzn.to/4j0eyMV"
     },
     {
       id: 18,
@@ -165,7 +165,7 @@ export const games = [
     {
       id: 19,
       name: "Osu",
-      yearsPlayed: ["2020"],
+      yearsPlayed: ["2020", "2021"],
       releaseYear: "2007",
       //image: "/covers/outlast_cover.jpg",
       image: "https://cdn2.steamgriddb.com/grid/64d532818f5a11ed28dfc6a1a7128060.png",
@@ -178,7 +178,7 @@ export const games = [
       releaseYear: "2020",
       //image: "/covers/outlast_cover.jpg",
       image: "https://upload.wikimedia.org/wikipedia/en/c/c0/Avengers_2020_cover_art.png",
-      link: "https://store.steampowered.com/app/997070/Marvels_Avengers__The_Definitive_Edition/"
+      link: "https://amzn.to/4j8vZe1"
     },
     {
       id: 21,
@@ -205,7 +205,7 @@ export const games = [
       releaseYear: "2014",
       //image: "/covers/outlast_cover.jpg",
       image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/319510/ss_b5bf2127754d4e9bf6ab1c94e599d47f93a6708a.jpg",
-      link: "https://store.steampowered.com/app/319510/Five_Nights_at_Freddys/"
+      link: "https://amzn.to/3WbFYWi"
     },
     {
       id: 24,
@@ -223,7 +223,7 @@ export const games = [
       releaseYear: "2014",
       //image: "/covers/outlast_cover.jpg",
       image: "https://cdn2.steamgriddb.com/grid/c4ad72391c45de1c5ffd124705a5fc74.png",
-      link: "https://store.steampowered.com/app/332800/Five_Nights_at_Freddys_2/"
+      link: "https://amzn.to/3WbFYWi"
     },
     {
       id: 26,
@@ -232,7 +232,7 @@ export const games = [
       releaseYear: "2020",
       //image: "/covers/outlast_cover.jpg",
       image: "https://image.api.playstation.com/vulcan/ap/rnd/202006/1809/RN0Ego9HLg4DmZMZSesFyWDy.png",
-      link: "https://store.playstation.com/en-us/product/UP4389-CUSA14899_00-DAH1REMAKEUS0000"
+      link: "https://amzn.to/4acUD9A"
     },
     {
       id: 27,
@@ -242,7 +242,7 @@ export const games = [
       //image: "/covers/outlast_cover.jpg",
       //image: "https://products.eneba.games/resized-products/8SHM05Cnozkenzo_tEflUWFAx3bsxURyGs3ZmSsBCkY_350x200_3x-0.jpeg",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdfj9HSUqi85phIV-4Y_sh9s2JIp7F5IkW6A&s",
-      link: "https://store.steampowered.com/app/354140/Five_Nights_at_Freddys_3/"
+      link: "https://amzn.to/3WbFYWi"
     },
     {
       id: 28,
@@ -250,7 +250,7 @@ export const games = [
       yearsPlayed: ["2020"],
       releaseYear: "2016",
       image: "https://image.api.playstation.com/vulcan/img/cfn/11307MTvkumhOsLQiA_3g0ZbFhLnHOOWVw3qR4Rum7sKAh8I3THtbG0aa-P7dF7-miXzo1ceqN897MfxYZ7Qx-GaEZs8kq4X.png",
-      link: "https://store.playstation.com/en-us/product/UP0102-CUSA01200_00-SFVCE00000000000"
+      link: "https://amzn.to/4gLovMr"
     },
     {
       id: 29,
@@ -258,7 +258,7 @@ export const games = [
       yearsPlayed: ["2020"],
       releaseYear: "2017",
       image: "https://image.api.playstation.com/vulcan/ap/rnd/202010/0612/v72etLvWWX27EAu0PU0qXtpD.png",
-      link: "https://store.playstation.com/en-us/product/UP0006-CUSA05770_00-BATTLEFRONTII000"
+      link: "https://amzn.to/40pqtMU"
     },
     {
       id: 30,
@@ -266,7 +266,7 @@ export const games = [
       yearsPlayed: ["2020"],
       releaseYear: "2020",
       image: "https://cdn11.bigcommerce.com/s-xs1cevxe43/images/stencil/original/products/2049/9360/ECOM_Product_Tiles_Packshot_2D_AGNOSTIC_UNRATED_EN_USTDP_LH.jpg80__28608.1638491187.png?c=2",
-      link: "https://store.steampowered.com/app/1194630/The_Dark_Pictures_Anthology_Little_Hope/"
+      link: "https://amzn.to/4fOf51t"
     },
     {
       id: 31,
@@ -274,7 +274,7 @@ export const games = [
       yearsPlayed: ["2020"],
       releaseYear: "2020",
       image: "https://image.api.playstation.com/vulcan/img/rnd/202006/2518/quCEgXq4YjFYon3XFJjKG6Em.png",
-      link: "https://store.playstation.com/en-us/product/UP9000-PPSA05030_00-GHOSTDCPS5PSPLUS"
+      link: "https://amzn.to/3PuMTGl"
     },
     {
       id: 32,
@@ -282,7 +282,7 @@ export const games = [
       yearsPlayed: ["2020", "2024"],
       releaseYear: "2018",
       image: "https://static1.dualshockersimages.com/wordpress/wp-content/uploads/2018/06/Fallout76_E3_VaultSuit_1528639332.jpg",
-      link: "https://store.playstation.com/en-us/product/UP9000-PPSA05030_00-GHOSTDCPS5PSPLUS"
+      link: "https://amzn.to/408CBk1"
     },
     {
     id: 33,
@@ -292,7 +292,7 @@ export const games = [
     //image: "/covers/outlast_cover.jpg",
     //image: "https://image.api.playstation.com/vulcan/img/cfn/11307lJXV6jMrabrKwzNFK94riCQC90Ogs2z0X1LWyX9oDA0W1zmbIw3V-eLTiw-q-kW_7MfwoEOQH-ZEVPPuRX1gDM0TYhw.png",
     image: "https://images.launchbox-app.com/93f90ac8-9cfe-49bc-b955-a346aec6a247.png",
-    link: "https://store.steampowered.com/app/388090/Five_Nights_at_Freddys_4/"
+    link: "https://amzn.to/3WbFYWi"
     },
     {
       id: 34,
@@ -301,7 +301,7 @@ export const games = [
       releaseYear: "2016",
       //image: "/covers/outlast_cover.jpg",
       image: "https://gamefaqs.gamespot.com/a/box/4/5/4/759454_front.jpg",
-      link: "https://store.steampowered.com/app/506610/Five_Nights_at_Freddys_Sister_Location/"
+      link: "https://amzn.to/3WbFYWi"
     },
     {
       id: 35,
@@ -320,7 +320,7 @@ export const games = [
       //image: "/covers/outlast_cover.jpg",
       image: "https://image.api.playstation.com/vulcan/ap/rnd/202311/1419/926257e09a1008437999159582acf05ae1a129401fe817d9.png",
       //image: "https://image.api.playstation.com/vulcan/ap/rnd/202009/3020/AwfxjgRsZUe9JK6AOvZcz8Rx.jpg",
-      link: "https://store.steampowered.com/app/732690/FIVE_NIGHTS_AT_FREDDYS_HELP_WANTED/"
+      link: "https://amzn.to/4advMCj"
     },
     {
       id: 37,
@@ -338,7 +338,7 @@ export const games = [
       releaseYear: "2017",
       //image: "/covers/outlast_cover.jpg",
       image: "https://image.api.playstation.com/vulcan/img/rnd/202011/0400/3PetyfDv6TpzxVQtBKYnWq8o.png",
-      link: "https://store.playstation.com/en-us/product/UP0002-PPSA02409_00-DESTINYTHEGAME02"
+      link: "https://amzn.to/4fNxwDG"
     },
     {
       id: 39,
@@ -348,7 +348,7 @@ export const games = [
       //image: "/covers/outlast_cover.jpg",
       //image: "https://gamespot.com/a/uploads/original/1585/15855271/3440104-kh3_keyart_reveal_1200x1200.jpg",
       image: "https://image.api.playstation.com/vulcan/img/rnd/202010/3022/IVcZGcnea1Ba70VSWBQZdVJs.jpg",
-      link: "https://store.playstation.com/en-us/product/UP0082-CUSA12031_00-KINGDOMHEARTSX30"
+      link: "https://amzn.to/3W9RMs8"
     },
     {
       id: 40,
@@ -358,7 +358,7 @@ export const games = [
       //image: "/covers/outlast_cover.jpg",
       //image: "https://gamespot.com/a/uploads/original/1585/15855271/3440104-kh3_keyart_reveal_1200x1200.jpg",
       image: "https://cdna.artstation.com/p/assets/images/images/007/676/796/large/glenn-rane-bc-cover.jpg?1507783832",
-      link: "https://worldofwarcraft.blizzard.com/en-us/"
+      link: "https://amzn.to/3We2TjF"
     },
     {
       id: 41,
@@ -367,7 +367,7 @@ export const games = [
       releaseYear: "2020",
       //image: "/covers/outlast_cover.jpg",
       image: "https://image.api.playstation.com/vulcan/ap/rnd/202010/1220/zoRNQGzwMQRJDpRSKjifE1vu.png",
-      link: "https://store.playstation.com/en-us/product/UP4064-PPSA01527_00-2233585924063477"
+      link: "https://amzn.to/3W4Lx8H"
     },
     {
       id: 42,
@@ -377,9 +377,130 @@ export const games = [
       //image: "/covers/outlast_cover.jpg",
       image: "https://cdn1.epicgames.com/offer/27aa2ebdcda14b3bb8a669aab73ca55f/EGS_TheElderScrollsOnline_ZeniMaxOnlineStudios_S2_1200x1600-5fc6dfa46dd3fe68292cd6b9ae75b0ee",
       //image: "https://image.api.playstation.com/vulcan/img/rnd/202010/2613/GwaZyAhG6cK3F6oefbJrZnou.png",
-      link: "https://store.playstation.com/en-us/product/UP1003-PPSA02017_00-ESOMORROWINDBUND"
+      link: "https://amzn.to/4j4GRd3"
+    },
+    {
+      id: 43,
+      name: "Dark Souls III",
+      yearsPlayed: ["2021"],
+      releaseYear: "2016",
+      image: "https://m.media-amazon.com/images/M/MV5BMjg5MGI3ZWUtODc4NS00Y2E2LWE1MTQtZDAwM2Q4ZDJlNzg5XkEyXkFqcGc@._V1_.jpg",
+      //image: "https://image.api.playstation.com/cdn/UP0700/CUSA03388_00/v8JlD8KcQUtTqaLBmpFnj1ESRR5zMkLk.png",
+      link: "https://amzn.to/426zwDQ"
+    },
+    {
+      id: 44,
+      name: "Astro's Playroom",
+      yearsPlayed: ["2021"],
+      releaseYear: "2020",
+      image: "https://i0.wp.com/powerup-gaming.com/wp-content/uploads/2020/11/astro-playroom-scaled.jpg?resize=1068%2C601&ssl=1",
+      link: "https://store.playstation.com/en-us/product/IP9100-PPSA01325_00-PREINMASTER00000"
+    },
+    {
+      id: 45,
+      name: "Little Nightmares",
+      yearsPlayed: ["2021"],
+      releaseYear: "2017",
+      image: "https://m.media-amazon.com/images/I/91HQ+aAlwTL._UF1000,1000_QL80_.jpg",
+      link: "https://amzn.to/4a7B5Dk"
+    },
+    {
+      id: 46,
+      name: "Crash Bandicoot N Sane Trilogy",
+      yearsPlayed: ["2021"],
+      releaseYear: "2017",
+      image: "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000002090/ecfc64f339579b17ed8d12d5bdb4acd0cad2811cb2ff7dd0a02ce7e512c2d26a",
+      link: "https://amzn.to/406nsQ7"
+    },
+    {
+      id: 47,
+      name: "Little Nightmares II",
+      yearsPlayed: ["2021"],
+      releaseYear: "2021",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202012/0311/21kgQxdCRRRWNRptsNutdCqU.jpg",
+      link: "https://amzn.to/40b2vUe"
+    },
+    {
+      id: 48,
+      name: "The Strange Brigrade",
+      yearsPlayed: ["2021"],
+      releaseYear: "2018",
+      image: "https://image.api.playstation.com/cdn/EP4529/CUSA07905_00/KOJaM0hGl3elKIuRmXnvhek9R75f8qvI.png",
+      link: "https://amzn.to/3DMTAB3"
+    },
+    {
+      id: 49,
+      name: "The Last of Us",
+      yearsPlayed: ["2021"],
+      releaseYear: "2013",
+      image: "https://m.media-amazon.com/images/I/71-hlREKk6L._AC_UF894,1000_QL80_.jpg",
+      link: "https://amzn.to/4j9ZZ9q"
+    },
+    {
+      id: 50,
+      name: "Cuphead",
+      yearsPlayed: ["2021"],
+      releaseYear: "2017",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202206/0614/FD8wa2J2FZBuEAP2EtNd16sQ.png",
+      link: "https://amzn.to/4h3UA1Z"
+    },
+    {
+      id: 51,
+      name: "It Takes Two",
+      yearsPlayed: ["2021"],
+      releaseYear: "2021",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202012/0815/0Xqi1LgRoEtJ5zlFprpd54Vu.png",
+      link: "https://amzn.to/3DMX7z9"
+    },
+    {
+      id: 52,
+      name: "The Last of Us Part II",
+      yearsPlayed: ["2021"],
+      releaseYear: "2020",
+      image: "https://blog.playstation.com/uploads/2024/01/76a2583e03ed46f0d63c50b9c347937d6a251a6a.jpeg",
+      link: "https://amzn.to/40nPS9D"
+    },
+    {
+      id: 53,
+      name: "Spider-Man Miles Morales",
+      yearsPlayed: ["2021"],
+      releaseYear: "2020",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202008/1020/PRfYtTZQsuj3ALrBXGL8MjAH.jpg",
+      link: "https://amzn.to/4gJZnpy"
+    },
+    {
+      id: 54,
+      name: "Final Fantasy XV",
+      yearsPlayed: ["2021"],
+      releaseYear: "2020",
+      image: "https://image.api.playstation.com/cdn/UP0082/CUSA01633_00/kzdAiZGWkY7vPpmkRetq7MhOOvtrkGgW.png",
+      link: "https://amzn.to/3PuP7Wd"
+    },
+    {
+      id: 55,
+      name: "Naruto to Boruto Shinobi Striker",
+      yearsPlayed: ["2021"],
+      releaseYear: "2018",
+      image: "https://image.api.playstation.com/cdn/UP0700/CUSA08789_00/UYMVKoryxmjlsE6UPjhh0cKFRjyAJGa8.png",
+      link: "https://amzn.to/421y8lT"
+    },
+    {
+      id: 56,
+      name: "Power Rangers: Battle for the Grid",
+      yearsPlayed: ["2021"],
+      releaseYear: "2019",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202103/1623/3TaCj4nqF8bL0SAmmRQbkpsS.png",
+      link: "https://amzn.to/4fMOP7J"
+    },
+    {
+      id: 57,
+      name: "Outriders",
+      yearsPlayed: ["2021"],
+      releaseYear: "2021",
+      image: "https://cdn1.epicgames.com/offer/c6e54ebd92da4ee8819c1c0956cebdc4/EGS_OUTRIDERSCOMPLETEEDITION_PeopleCanFly_Editions_S2_1200x1600-cd4429747b93cbdde8a5a5595ace8185",
+      link: "https://amzn.to/422auFF"
     },
 
-    // start now with 2021 January
+    // Pick up on June 2021
   ];
   
