@@ -12,9 +12,8 @@ export const games = [
     {
       id: 2,
       name: "Bloodborne",
-      yearsPlayed: ["2017", "2023", "2024"],
+      yearsPlayed: ["2017", "2022", "2023", "2024"],
       releaseYear: "2015",
-      //image: "/covers/bloodborne_cover.jpg",
       image: "https://image.api.playstation.com/vulcan/img/rnd/202010/2614/Sy5e8DmeKIJVjlAGraPAJYkT.png",
       link: "https://amzn.to/4aawZun"
     },
@@ -102,7 +101,7 @@ export const games = [
     {
       id: 12,
       name: "Call of Duty Warzone",
-      yearsPlayed: ["2020", "2021"],
+      yearsPlayed: ["2020", "2021", "2022"],
       releaseYear: "2020",
       //image: "/covers/outlast_cover.jpg",
       image: "https://image.api.playstation.com/vulcan/ap/rnd/202306/2400/ac505d57a46e24dd96712263d89a150cb443af288c025ff2.jpg",
@@ -156,7 +155,7 @@ export const games = [
     {
       id: 18,
       name: "Fall Guys",
-      yearsPlayed: ["2020"],
+      yearsPlayed: ["2020", "2022"],
       releaseYear: "2020",
       //image: "/covers/outlast_cover.jpg",
       image: "https://image.api.playstation.com/vulcan/ap/rnd/202408/0721/00dd43384a1ed60cd7453428dd5c6897b35b013d4b98965d.png",
@@ -210,7 +209,7 @@ export const games = [
     {
       id: 24,
       name: "Star Wars The Old Republic",
-      yearsPlayed: ["2020"],
+      yearsPlayed: ["2020", "2021", "2022"],
       releaseYear: "2011",
       //image: "/covers/outlast_cover.jpg",
       image: "https://gaming-cdn.com/images/products/9458/orig/star-wars-the-old-republic-pc-game-ea-app-cover.jpg?v=1705415061",
@@ -479,7 +478,7 @@ export const games = [
     {
       id: 55,
       name: "Naruto to Boruto Shinobi Striker",
-      yearsPlayed: ["2021"],
+      yearsPlayed: ["2021", "2022"],
       releaseYear: "2018",
       image: "https://image.api.playstation.com/cdn/UP0700/CUSA08789_00/UYMVKoryxmjlsE6UPjhh0cKFRjyAJGa8.png",
       link: "https://amzn.to/421y8lT"
@@ -500,7 +499,265 @@ export const games = [
       image: "https://cdn1.epicgames.com/offer/c6e54ebd92da4ee8819c1c0956cebdc4/EGS_OUTRIDERSCOMPLETEEDITION_PeopleCanFly_Editions_S2_1200x1600-cd4429747b93cbdde8a5a5595ace8185",
       link: "https://amzn.to/422auFF"
     },
+    {
+      id: 58,
+      name: "Resident Evil VII: Biohazard",
+      yearsPlayed: ["2021"],
+      releaseYear: "2021",
+      //image: "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/07/resident-evil-7-cover.jpg",
+      image: "https://gugimages.s3.us-east-2.amazonaws.com/wp-content/uploads/2017/03/22173616/1473801329-resident-evil-7-biohazard-art.jpg",
+      link: "https://store.playstation.com/en-us/product/UP0102-PPSA04400_00-BH70000000000001"
+    },
+    {
+      id: 59,
+      name: "Mass Effect Legendary Edition",
+      yearsPlayed: ["2021", "2022"],
+      releaseYear: "2021",
+      image: "https://store-images.s-microsoft.com/image/apps.4132.14254372351363255.ac3906d1-13b6-4af0-a00a-e10c8a92007b.834fe893-324e-4c41-9740-bafed4026578",
+      //image: "https://media.contentapi.ea.com/content/dam/masseffect/images/2020/10/mele-hero-large-keyart-16x9-xl.jpg.adapt.crop1x1.320w.jpg",
+      link: "https://store.playstation.com/en-us/product/UP0006-CUSA19500_00-METR000000000000"
+    },
+    {
+      id: 60,
+      name: "A Plague Tale: Innocence",
+      yearsPlayed: ["2021"],
+      releaseYear: "2019",
+      //image: "https://nichegamer.com/wp-content/uploads/2019/05/a-plague-tale-innocence-05-12-19-11.jpg",
+      image: "https://cdna.artstation.com/p/assets/images/images/017/919/440/large/olivier-ponsonnet-boxart.jpg?1557849980",
+      link: "https://store.playstation.com/en-us/product/UP4133-PPSA02388_00-APLAGUETALEGAME0"
+    },
+    {
+      id: 62,
+      name: "Yakuza 0",
+      yearsPlayed: ["2021"],
+      releaseYear: "2015",
+      image: "https://m.media-amazon.com/images/M/MV5BZGMyMDBjZWMtMjFkNi00OWI1LWIyNmUtMDlkNDRiMjUyYWE2XkEyXkFqcGc@._V1_.jpg",
+      link: "https://store.playstation.com/en-us/product/UP0177-CUSA05070_00-YAKUZA0AMERICA00"
+    },
+    {
+      id: 63,
+      name: "The Dark Anthology: House of Ashes",
+      yearsPlayed: ["2021"],
+      releaseYear: "2021",
+      image: "https://cdn11.bigcommerce.com/s-xs1cevxe43/images/stencil/original/products/2500/9530/House_of_Ashes_blank__61673.1638485168.jpg?c=2",
+      link: "https://store.steampowered.com/app/1281590/The_Dark_Pictures_Anthology_House_of_Ashes/"
+    },
+    {
+      id: 64,
+      name: "Crab Game",
+      yearsPlayed: ["2021"],
+      releaseYear: "2021",
+      image: "https://m.media-amazon.com/images/M/MV5BYTE2ZDVmODktYTA0Mi00NjY4LWE2MjItY2QxNTA1MWE5OWZhXkEyXkFqcGc@._V1_.jpg",
+      link: "https://store.steampowered.com/app/1782210/Crab_Game/"
+    },
+    {
+      id: 65,
+      name: "Psychonauts",
+      yearsPlayed: ["2021"],
+      releaseYear: "2005",
+      image: "https://assets.doublefine.com/shared/games/backgrounds/psychonauts-portrait.jpg",
+      link: ""
+    },
+    {
+      id: 66,
+      name: "Deep Rock Galactic",
+      yearsPlayed: ["2022"],
+      releaseYear: "2018",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202010/1516/oMdAma9i7zMCUAoeckoEP174.jpg",
+      link: "https://store.playstation.com/en-us/product/UP4664-PPSA02967_00-DRGFULLGAMEPS5US"
+    },
+    {
+      id: 67,
+      name: "Assassin's Creed Valhalla",
+      yearsPlayed: ["2022"],
+      releaseYear: "2020",
+      image: "https://m.media-amazon.com/images/I/81PYKLkWWLL._AC_UF1000,1000_QL80_.jpg",
+      link: "https://store.playstation.com/en-us/product/UP0001-PPSA01491_00-GAME000000000000"
+    },
+    {
+      id: 68,
+      name: "Five Nights at Freddy's: Security Breach",
+      yearsPlayed: ["2022"],
+      releaseYear: "2021",
+      image: "https://gmedia.playstation.com/is/image/SIEPDC/five-nights-at-freddys-security-breach-listing-thumb-01-en-14jan21?$facebook$",
+      link: "https://store.playstation.com/en-us/product/UP0638-PPSA01797_00-FNAFSECUREBREACH"
+    },
+    {
+      id: 69,
+      name: "Halo Infinite",
+      yearsPlayed: ["2022"],
+      releaseYear: "2021",
+      image: "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/12/mixcollage-24-dec-2024-11-29-am-6627.jpg",
+      link: "https://www.xbox.com/en-US/games/store/halo-infinite/9PP5G1F0C2B6/0010",
+    },
+    {
+      id: 70,
+      name: "The Mortuary Assistant",
+      yearsPlayed: ["2022"],
+      releaseYear: "2022",
+      image: "https://m.media-amazon.com/images/M/MV5BMmM2NGIwODItYjZhZS00NDVhLTlmMGItZGEyNDg2ZmIzOGRkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      link: "https://store.steampowered.com/app/1295920/The_Mortuary_Assistant/"
+    },
+    {
+      id: 71,
+      name: "Poppy Playtime",
+      yearsPlayed: ["2022"],
+      releaseYear: "2022",
+      image: "https://cdn-images.dzcdn.net/images/cover/697fbb9f86961ce2c562c46869c7ce11/0x1900-000000-80-0-0.jpg",
+      link: "https://store.steampowered.com/app/1721470/Poppy_Playtime/"
+    },
+    {
+      id: 72,
+      name: "Spongebob Squarepants: Battle for Bikini Bottom",
+      yearsPlayed: ["2022"],
+      releaseYear: "2020",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202007/3122/W5DMW31LjfCHMdHUzbzXqA3H.jpg",
+      link: "https://store.playstation.com/en-us/product/UP4389-CUSA14898_00-SPONGEBOBBFBBEU0"
+    },
+    {
+      id: 73,
+      name: "Marvel's Guardian of the Galaxy",
+      yearsPlayed: ["2022"],
+      releaseYear: "2021",
+      image: "https://www.nme.com/wp-content/uploads/2021/10/marvels-guardians-galaxy-key-art-frame.jpg",
+      link: "https://www.xbox.com/en-US/games/store/marvels-guardians-of-the-galaxy/9PGLL77C201J"
+    },
+    {
+      id: 74,
+      name: "Cuphead",
+      yearsPlayed: ["2022"],
+      releaseYear: "2017",
+      image: "https://preview.redd.it/in0u8ufg8df41.jpg?width=1080&crop=smart&auto=webp&s=3f4b96f1a2db5e8394b356ae968d8405a3b1f08a",
+      link: "https://store.steampowered.com/app/268910/Cuphead/"
+    },
+    {
+      id: 75,
+      name: "Elden Ring",
+      yearsPlayed: ["2022"],
+      releaseYear: "2022",
+      image: "https://m.media-amazon.com/images/I/6110RSDn3PL.jpg",
+      link: "https://store.steampowered.com/app/1245620/ELDEN_RING/"
+    },
+    {
+      id: 76,
+      name: "Call of Duty: Modern Warfare",
+      yearsPlayed: ["2022"],
+      releaseYear: "2019",
+      image: "https://image.api.playstation.com/vulcan/img/rnd/202010/2320/i5l1jLAhFSTiO7lSCNDWjJ2J.jpg",
+      link: "https://store.playstation.com/en-us/product/UP0002-CUSA08829_00-CODMWTHEGAME0001"
+    },
+    {
+      id: 77,
+      name: "Fallout 3",
+      yearsPlayed: ["2022"],
+      releaseYear: "2008",
+      image: "https://thenerdstash.com/wp-content/uploads/2015/06/fallout-3.jpeg",
+      link: "https://www.xbox.com/en-US/games/store/fallout-3/C29HQ887KH4B"
+    },
+    {
+      id: 78,
+      name: "Assassin's Creed II",
+      yearsPlayed: ["2022"],
+      releaseYear: "2009",
+      image: "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5q88N2Ij33R0pEUSRyiUDG/f837fab308b35b0fcb0c0716e38599b2/ac-2-heroBanner.jpg",
+      link: "https://store.playstation.com/en-us/product/UP0001-CUSA05008_00-ACLEGACYHD000000"
+    },
+    {
+      id: 80,
+      name: "Stray",
+      yearsPlayed: ["2022"],
+      releaseYear: "2022",
+      image: "https://adventuregamehotspot.com/images/games/6/383-stray-xbox-teaser.jpg",
+      link: "https://store.playstation.com/en-us/product/UP2470-PPSA02100_00-STRAYSIEA0000000"
+    },
+    {
+      id: 81,
+      name: "Born Into Fear",
+      yearsPlayed: ["2022"],
+      releaseYear: "2022",
+      image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1705930/ss_e3064125f7c1d8316d9e120dad75fc07d0a53df7.1920x1080.jpg?t=1647884127",
+      link: "https://store.steampowered.com/app/1705930/Born_Into_Fear/"
+    },
+    {
+      id: 82,
+      name: "We Happy Few",
+      yearsPlayed: ["2022"],
+      releaseYear: "2016",
+      image: "https://www.superjumpmagazine.com/content/images/2023/07/i335276.jpeg",
+      link: "https://www.xbox.com/en-US/games/store/we-happy-few/BPR2TBS2KMQJ/0001"
+    },
+    {
+      id: 83,
+      name: "Sly Cooper and the Thievious Racoonus",
+      yearsPlayed: ["2022"],
+      releaseYear: "2002",
+      image: "https://m.media-amazon.com/images/M/MV5BODAxZjhiYTMtODJlNS00ZjM5LWJkYTUtMzc0YjBhN2ZkMmFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      link: "https://store.playstation.com/en-us/product/UP9000-PPSA21300_00-SCUS971980000000"
+    },
+    {
+      id: 84,
+      name: "God of War Ragnarok",
+      yearsPlayed: ["2022", "2023"],
+      releaseYear: "2022",
+      image: "https://external-preview.redd.it/IIciod7bABNjVmS4hT4h7px150nVQA7m5ig1377R4tM.png?format=pjpg&auto=webp&s=90bb4352eda17869a8ae5f12c9c7c097cca17716",
+      link: "https://store.playstation.com/en-us/product/UP9000-PPSA08329_00-GOWRAGNAROK00000"
+    },
+    {
+      id: 85,
+      name: "Assassin's Creed Brotherhood",
+      yearsPlayed: ["2022"],
+      releaseYear: "2010",
+      image: "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2024/07/assassin-s-creed-brotherhood-cover.jpg",
+      link: "https://store.playstation.com/en-us/product/UP0001-CUSA05008_00-ACLEGACYHD000000"
+    },
+    {
+      id: 86,
+      name: "Grounded",
+      yearsPlayed: ["2022"],
+      releaseYear: "2022",
+      image: "https://assets.xboxservices.com/assets/85/45/8545cde4-e097-412a-b95e-3870a2d23d32.jpg?n=Grounded_GLP-Page-Hero-0_1083x1222.jpg",
+      link: "https://www.xbox.com/en-US/games/grounded"
+    },
+    {
+      id: 87,
+      name: "The Stanley Parable: Ultra Deluxe",
+      yearsPlayed: ["2022"],
+      releaseYear: "2022",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202203/2023/T4HUZHzWw6fDKyNBxHMcMGmF.png",
+      link: "https://store.playstation.com/en-us/product/UP3613-PPSA06654_00-6644681382731206"
+    },
+    {
+      id: 88,
+      name: "Happy's Humble Burger Farm",
+      yearsPlayed: ["2022"],
+      releaseYear: "2021",
+      image: "https://image.api.playstation.com/vulcan/img/rnd/202111/1618/bMWfY9CGGxWCAt3zPdpjpYBc.png",
+      link: "https://store.steampowered.com/app/1433340/Happys_Humble_Burger_Farm/"
+    },
+    {
+      id: 89,
+      name: "Sly 2: Band of Thieves",
+      yearsPlayed: ["2022", "2023"],
+      releaseYear: "2004",
+      image: "https://gamefaqs.gamespot.com/a/review/70/169570-4.jpg",
+      link: "https://store.playstation.com/en-us/product/UP9000-PPSA22287_00-SCUS973160000000"
+    },
+    {
+      id: 90,
+      name: "Resident Evil VIII: Village",
+      yearsPlayed: ["2022"],
+      releaseYear: "2022",
+      image: "https://products.eneba.games/resized-products/hvKCG93Orn7ypAy8hHis7mtUrWu8u1OwJz7u4uydchs_350x200_3x-0.jpeg",
+      link: "https://store.playstation.com/en-us/product/UP0102-PPSA01556_00-VILLAGEFULLGAMEX"
+    },
+    {
+      id: 91,
+      name: "The Dark Anthology: The Devil In Me",
+      yearsPlayed: ["2022"],
+      releaseYear: "2022",
+      image: "https://cdn11.bigcommerce.com/s-xs1cevxe43/images/stencil/original/products/2658/11858/TDIM__26181.1669130981.jpg?c=2",
+      link: "https://store.bandainamcoent.com/the-dark-pictures-anthology-the-devil-in-me-standard-edition-steam/https://store.bandainamcoent.com/the-dark-pictures-anthology-the-devil-in-me-standard-edition-steam/https://store.bandainamcoent.com/the-dark-pictures-anthology-the-devil-in-me-standard-edition-steam/"
+    },
 
-    // Pick up on June 2021
-  ];
-  
+    // pick up on Jan 2023
+];
