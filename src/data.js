@@ -101,7 +101,7 @@ export const games = [
     {
       id: 12,
       name: "Call of Duty Warzone",
-      yearsPlayed: ["2020", "2021", "2022"],
+      yearsPlayed: ["2020", "2021", "2022", "2023"],
       releaseYear: "2020",
       //image: "/covers/outlast_cover.jpg",
       image: "https://image.api.playstation.com/vulcan/ap/rnd/202306/2400/ac505d57a46e24dd96712263d89a150cb443af288c025ff2.jpg",
@@ -110,7 +110,7 @@ export const games = [
     {
       id: 13,
       name: "Saints Row IV",
-      yearsPlayed: ["2020"],
+      yearsPlayed: ["2020", "2023"],
       releaseYear: "2013",
       //image: "/covers/outlast_cover.jpg",
       image: "https://image.api.playstation.com/cdn/UP2047/CUSA01164_00/LqyA3sDAiQRkdxlVtnh6jxUYmQVL1J9S.png",
@@ -164,7 +164,7 @@ export const games = [
     {
       id: 19,
       name: "Osu",
-      yearsPlayed: ["2020", "2021"],
+      yearsPlayed: ["2020", "2021", "2023"],
       releaseYear: "2007",
       //image: "/covers/outlast_cover.jpg",
       image: "https://cdn2.steamgriddb.com/grid/64d532818f5a11ed28dfc6a1a7128060.png",
@@ -485,7 +485,7 @@ export const games = [
     },
     {
       id: 56,
-      name: "Power Rangers: Battle for the Grid",
+      name: "Power Rangers: Battle For The Grid",
       yearsPlayed: ["2021"],
       releaseYear: "2019",
       image: "https://image.api.playstation.com/vulcan/ap/rnd/202103/1623/3TaCj4nqF8bL0SAmmRQbkpsS.png",
@@ -577,7 +577,7 @@ export const games = [
     {
       id: 68,
       name: "Five Nights at Freddy's: Security Breach",
-      yearsPlayed: ["2022"],
+      yearsPlayed: ["2022", "2023"],
       releaseYear: "2021",
       image: "https://gmedia.playstation.com/is/image/SIEPDC/five-nights-at-freddys-security-breach-listing-thumb-01-en-14jan21?$facebook$",
       link: "https://store.playstation.com/en-us/product/UP0638-PPSA01797_00-FNAFSECUREBREACH"
@@ -585,7 +585,7 @@ export const games = [
     {
       id: 69,
       name: "Halo Infinite",
-      yearsPlayed: ["2022"],
+      yearsPlayed: ["2022", "2023"],
       releaseYear: "2021",
       image: "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/12/mixcollage-24-dec-2024-11-29-am-6627.jpg",
       link: "https://www.xbox.com/en-US/games/store/halo-infinite/9PP5G1F0C2B6/0010",
@@ -601,9 +601,9 @@ export const games = [
     {
       id: 71,
       name: "Poppy Playtime",
-      yearsPlayed: ["2022"],
+      yearsPlayed: ["2022", "2024"],
       releaseYear: "2022",
-      image: "https://cdn-images.dzcdn.net/images/cover/697fbb9f86961ce2c562c46869c7ce11/0x1900-000000-80-0-0.jpg",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202310/2715/af66c0ac659a7a7c3e5d61c61dfdd74e73920ddaa95bde1f.jpg",
       link: "https://store.steampowered.com/app/1721470/Poppy_Playtime/"
     },
     {
@@ -633,7 +633,7 @@ export const games = [
     {
       id: 75,
       name: "Elden Ring",
-      yearsPlayed: ["2022"],
+      yearsPlayed: ["2022", "2024"],
       releaseYear: "2022",
       image: "https://m.media-amazon.com/images/I/6110RSDn3PL.jpg",
       link: "https://store.steampowered.com/app/1245620/ELDEN_RING/"
@@ -758,6 +758,432 @@ export const games = [
       image: "https://cdn11.bigcommerce.com/s-xs1cevxe43/images/stencil/original/products/2658/11858/TDIM__26181.1669130981.jpg?c=2",
       link: "https://store.bandainamcoent.com/the-dark-pictures-anthology-the-devil-in-me-standard-edition-steam/https://store.bandainamcoent.com/the-dark-pictures-anthology-the-devil-in-me-standard-edition-steam/https://store.bandainamcoent.com/the-dark-pictures-anthology-the-devil-in-me-standard-edition-steam/"
     },
-
-    // pick up on Jan 2023
+    {
+      id: 92,
+      name: "Monster Hunter Rise",
+      yearsPlayed: ["2023", "2024"],
+      releaseYear: "2021",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202211/1504/KzeHCTuoWLV4Cl7wkDA2YwCo.png",
+      link: "https://www.xbox.com/en-US/games/store/monster-hunter-rise/9N1VP8WDQK4D"
+    },
+    {
+      id: 93,
+      name: "Demon Slayer: Hinokami Chronicles",
+      yearsPlayed: ["2023", "2024"],
+      releaseYear: "2022",
+      image: "https://pbs.twimg.com/media/FkCVQuJVEAANhSQ?format=jpg&name=4096x4096",
+      link: "https://store.playstation.com/en-us/product/UP0177-PPSA03489_00-HINOKAMI00000000"
+    },
+    {
+      id: 94,
+      name: "Hogwarts Legacy",
+      yearsPlayed: ["2023"],
+      releaseYear: "2021",
+      image: "https://cdn1.epicgames.com/offer/e97659b501af4e3981d5430dad170911/EGS_HogwartsLegacyDigitalDeluxeEdition_AvalancheSoftware_Editions_S2_1200x1600-eb5c42c97eb3f0ed444e58114a0c30b9",
+      //image: "https://i.redd.it/potn7vwaxyj91.png",
+      link: "https://www.xbox.com/en-US/games/hogwarts-legacy"
+    },
+    {
+      id: 95,
+      name: "Wo Long: Fallen Dynasty",
+      yearsPlayed: ["2023"],
+      releaseYear: "2023",
+      image: "https://preview.redd.it/art-wo-long-fallen-dynasty-complete-edition-v0-1aasgeuvmybc1.jpeg?auto=webp&s=7a6af64b5470c2507af60a86be6a4a60217a2ae7",
+      link: "https://www.xbox.com/en-US/games/store/wo-long-fallen-dynasty/9N9X9PC8V9CP"
+    },
+    {
+      id: 96,
+      name: "The Simpsons: Hit & Run",
+      yearsPlayed: ["2023"],
+      releaseYear: "2003",
+      image: "https://cdn2.steamgriddb.com/grid/a44fbda1d66caf7a6cb788e21c3c5511.png",
+      //image: "https://prod-static.mobilesyrup.com/uploads/2023/07/the-simpsons-hit-and-run-scaled.jpg",
+      link: "https://www.amazon.com/s?k=the+simpsons+hit+and+run&crid=QMVZYA9Q1WAU&sprefix=the+simpsons+hit+and+run%2Caps%2C174&ref=nb_sb_noss_1"
+    },
+    {
+      id: 97,
+      name: "Halo: Master Chief Collection",
+      yearsPlayed: ["2023", "2024"],
+      releaseYear: "2014",
+      image: "https://store-images.s-microsoft.com/image/apps.13367.13817186670444302.148c432a-9fce-4c7d-bf13-8a2bd3a527b3.f26b74f0-8b1f-41eb-a82f-06843ec33473",
+      link: "https://www.xbox.com/en-US/games/halo-the-master-chief-collection"
+    },
+    {
+      id: 98,
+      name: "LEGO Star Wars: The Skywalker Saga",
+      yearsPlayed: ["2023"],
+      releaseYear: "2022",
+      image: "https://store-images.s-microsoft.com/image/apps.15663.13677920620920924.f0d2262f-b971-4299-914b-194791cb9c5b.ce64672f-e040-481c-a781-28a49b0ecf6e",
+      link: "https://www.xbox.com/en-US/games/store/lego-star-wars-the-skywalker-saga/9njn1mc1x5fk"
+    },
+    {
+      id: 99,
+      name: "Gears of War: Ultimate Edition",
+      yearsPlayed: ["2023"],
+      releaseYear: "2015",
+      image: "https://cdn.gearsofwar.com/gearsofwar/sites/2/2024/09/gears-of-war-ultimate-edition-2000x2000-5e546349767f3-66d77b3621fdc.jpg",
+      link: "https://www.xbox.com/en-US/games/store/gears-of-war-ultimate-edition/BQT21VXFS52F/0001"
+    },
+    {
+      id: 100,
+      name: "High on Life",
+      yearsPlayed: ["2023"],
+      releaseYear: "2022",
+      image: "https://cdn1.epicgames.com/spt-assets/8ae3e6daa99b4f54aa17551d1818571f/download-high-on-life-offer-3j8wt.jpg",
+      link: "https://www.xbox.com/en-US/games/store/high-on-life/9NL4714VTLRS"
+    },
+    {
+      id: 101,
+      name: "We Were Here",
+      yearsPlayed: ["2023"],
+      releaseYear: "2017",
+      image: "https://m.media-amazon.com/images/M/MV5BNzliYmYwYzItZTBkMy00ZjVhLWJkNWQtMmVhMjZkNDkxMGMyXkEyXkFqcGc@._V1_.jpg",
+      link: "https://store.steampowered.com/app/582500/We_Were_Here/"
+    },
+    {
+      id: 102,
+      name: "Dead Space",
+      yearsPlayed: ["2023"],
+      releaseYear: "2023",
+      image: "https://i.redd.it/xdiokxacfnr91.jpg",
+      link: "https://store.playstation.com/en-us/product/UP0006-PPSA03845_00-BEYONDPS5GAME000"
+    },
+    {
+      id: 103,
+      name: "The Legend of Zelda: Breath of the Wild",
+      yearsPlayed: ["2023"],
+      releaseYear: "2017",
+      image: "https://i.redd.it/awl2w7ox6icy.jpg",
+      link: "https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-switch/"
+    },
+    {
+      id: 104,
+      name: "Fate",
+      yearsPlayed: ["2023"],
+      releaseYear: "2005",
+      image: "https://assets-prd.ignimgs.com/2024/01/16/fate-1705437458623.jpg",
+      link: "https://store.steampowered.com/app/246840/FATE/"
+    },
+    {
+      id: 105,
+      name: "Slender: The Arrival",
+      yearsPlayed: ["2023"],
+      releaseYear: "2013",
+      image: "https://cdn1.epicgames.com/spt-assets/4f2537e2a2124cdd8fbd18b7068167d9/slender-the-arrival-4rvfj.png",
+      link: "https://store.steampowered.com/app/252330/Slender_The_Arrival/"
+    },
+    {
+      id: 106,
+      name: "Batman Arkham Origins",
+      yearsPlayed: ["2023"],
+      releaseYear: "2013",
+      image: "https://dcanimated.com/WF/sections/releases/games/arkhamorigins/keyart.jpg",
+      link: "https://store.steampowered.com/app/209000/Batman_Arkham_Origins/"
+    },
+    {
+      id: 107,
+      name: "My Hero Ultra Rumble",
+      yearsPlayed: ["2023", "2024"],
+      releaseYear: "2023",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202309/0620/3bef6a2dd8ce4552a75a5f06674f940d328fc9cf650dc47b.png",
+      link: "https://store.playstation.com/en-us/product/UP0700-CUSA27946_00-HEROVSGAME000000"
+    },
+    {
+      id: 108,
+      name: "Street Fighter 6",
+      yearsPlayed: ["2023"],
+      releaseYear: "2023",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202211/1502/nJRClRE03L3zkW79AciWq9rO.jpg",
+      link: "https://www.xbox.com/en-US/games/store/street-fighter-6/9NM79B7N9JM6"
+    },
+    {
+      id: 109,
+      name: "Star Wars Jedi: Survivor",
+      yearsPlayed: ["2023"],
+      releaseYear: "2023",
+      image: "https://i.redd.it/745nvgdjk0xa1.jpg",
+      link: "https://store.playstation.com/en-us/product/UP0006-PPSA07783_00-APPLEJACKGAME000"
+    },
+    {
+      id: 110,
+      name: "Telltale's The Walking Dead: Definitive Edition",
+      yearsPlayed: ["2023", "2024"],
+      releaseYear: "2012",
+      image: "https://m.media-amazon.com/images/M/MV5BMWFhN2RlMjgtOWQ1NC00MGRlLWIwYzItNmNiZmQwOWJjMzJhXkEyXkFqcGc@._V1_.jpg",
+      link: "https://www.xbox.com/en-US/games/store/the-walking-dead-the-telltale-definitive-series/9PPDLH53M8PM"
+    },
+    {
+      id: 111,
+      name: "Starfield",
+      yearsPlayed: ["2023"],
+      releaseYear: "2023",
+      image: "https://pbs.twimg.com/media/F3vUL8-bAAE-zvi.jpg:large",
+      link: "https://www.xbox.com/en-US/games/store/starfield/9NCJSXWZTP88/0010"
+    },
+    {
+      id: 112,
+      name: "Lies of P",
+      yearsPlayed: ["2023", "2024"],
+      releaseYear: "2023",
+      image: "https://media.nichegamer.com/wp-content/uploads/2023/09/lies-of-p-09-13-23-2-1.jpg",
+      link: "https://www.xbox.com/en-US/games/store/lies-of-p/9PCM4CMTPPGC"
+    },
+    {
+      id: 113,
+      name: "Payday 3",
+      yearsPlayed: ["2023"],
+      releaseYear: "2023",
+      image: "https://cdn.wccftech.com/wp-content/uploads/2023/07/payday3-HD-scaled.jpg",
+      link: "https://www.xbox.com/en-US/games/store/payday-3/9NPZVDCH73SX/0010"
+    },
+    {
+      id: 114,
+      name: "Assassin's Creed Mirage",
+      yearsPlayed: ["2023"],
+      releaseYear: "2023",
+      image: "https://preview.redd.it/assassins-creed-mirage-cover-art-assassins-creed-2007-style-v0-h5plbuhszwqa1.png?width=1587&format=png&auto=webp&s=4dcee7a226b30c97671928f35518dfd7c3ce5ae9",
+      link: "https://store.playstation.com/en-us/product/UP0001-PPSA07230_00-EDITIONSTANDARD0"
+    },
+    {
+      id: 115,
+      name: "Spider-Man 2",
+      yearsPlayed: ["2023"],
+      releaseYear: "2023",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202306/1219/60eca3ac155247e21850c7d075d01ebf0f3f5dbf19ccd2a1.jpg",
+      link: "https://store.playstation.com/en-us/product/UP9000-PPSA03016_00-MARVELSPIDERMAN2"
+    },
+    {
+      id: 116,
+      name: "Martha Is Dead",
+      yearsPlayed: ["2023"],
+      releaseYear: "2022",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202201/0716/uUBbCdrypnZgaDygBk1R0fsx.jpg",
+      link: "https://www.xbox.com/en-US/games/store/martha-is-dead/9PM6SJBMVQZL/0010"
+    },
+    {
+      id: 117,
+      name: "September 7th",
+      yearsPlayed: ["2023"],
+      releaseYear: "2023",
+      image: "https://howlongtobeat.com/games/120815_September_7th.jpg?width=250",
+      link: "https://store.steampowered.com/app/2249160/September_7th/"
+    },
+    {
+      id: 118,
+      name: "The Outlast Trials",
+      yearsPlayed: ["2023"],
+      releaseYear: "2023",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202312/2121/a2a4f9926e82836152e76444800790bc41046edf31602a40.png",
+      link: "https://store.steampowered.com/app/1304930/The_Outlast_Trials/"
+    },
+    {
+      id: 119,
+      name: "Fortnite",
+      yearsPlayed: ["2023"],
+      releaseYear: "2017",
+      image: "https://m.media-amazon.com/images/M/MV5BMTZlMmIxM2EtN2Y4Zi00M2ZhLTk3NzgtNjJmZTU0MTQ3YjcwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      link: "https://store.playstation.com/en-us/product/UP1477-PPSA01922_00-FNBNDL0000000000"
+    },
+    {
+      id: 120,
+      name: "Destroy All Humans 2 Reprobed",
+      yearsPlayed: ["2023"],
+      releaseYear: "2022",
+      image: "https://cdn.wccftech.com/wp-content/uploads/2021/09/DAH2_keyart-scaled.jpg",
+      link: "https://store.playstation.com/en-us/product/UP4389-PPSA05398_00-DAH2REPRODBEDUS0"
+    },
+    {
+      id: 121,
+      name: "Sekiro",
+      yearsPlayed: ["2023", "2024"],
+      releaseYear: "2019",
+      image: "https://image.api.playstation.com/vulcan/img/rnd/202010/1700/B66T6RbAfvIGjpEQxPq7k0Mu.png",
+      link: "https://www.xbox.com/en-US/games/store/sekiro-shadows-die-twice-goty-edition/BQD5WRRP2D6Q/0001"
+    },
+    {
+      id: 122,
+      name: "Helldivers 2",
+      yearsPlayed: ["2024"],
+      releaseYear: "2023",
+      image: "https://gaming-cdn.com/images/products/16121/orig/helldivers-2-playstation-5-game-playstation-store-cover.jpg?v=1730296215",
+      link: "https://store.playstation.com/en-us/product/UP9000-PPSA01413_00-HELLDIVERS200000"
+    },
+    {
+      id: 123,
+      name: "Mafia: Definitive Edition",
+      yearsPlayed: ["2024"],
+      releaseYear: "2020",
+      image: "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fmafia-definitive-edition%2Fhome%2FEGS_MafiaDefinitiveEditionPreOrder_Hangar13_G1A_00-1920x1080-e7457132d8ebeb06c2d663944087c683e4834918.jpg",
+      link: "https://store.playstation.com/en-us/product/UP1001-CUSA18097_00-MAFIAONEREMASTER"
+    },
+    {
+      id: 124,
+      name: "Assassin's Creed Revelations",
+      yearsPlayed: ["2024"],
+      releaseYear: "2011",
+      image: "https://i.ebayimg.com/images/g/EGwAAOSw-oFkUy8q/s-l1200.jpg",
+      link: "https://store.playstation.com/en-us/product/UP0001-CUSA05008_00-ACLEGACYHD000000"
+    },
+    {
+      id: 125,
+      name: "Red Dead Redemption II",
+      yearsPlayed: ["2024"],
+      releaseYear: "2018",
+      image: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e5d6f175-3a2e-493d-b7f2-5f70852b4f2e/deuawyw-04ca2264-bda4-448f-a0c1-405186a13899.jpg/v1/fill/w_683,h_1171,q_70,strp/red_dead_redemption_2_arthur_morgan_and_the_gang_by_love_myart_deuawyw-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjE5NSIsInBhdGgiOiJcL2ZcL2U1ZDZmMTc1LTNhMmUtNDkzZC1iN2YyLTVmNzA4NTJiNGYyZVwvZGV1YXd5dy0wNGNhMjI2NC1iZGE0LTQ0OGYtYTBjMS00MDUxODZhMTM4OTkuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.gCDuNDEGqMdAHDHPtFu18Z0FKiBrtuKVW8yBnRQ1aeM",
+      link: "https://store.playstation.com/en-us/product/UP1004-CUSA03041_00-REDEMPTIONFULL02"
+    },
+    {
+      id: 126,
+      name: "For Honor",
+      yearsPlayed: ["2024"],
+      releaseYear: "2017",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202402/2911/c575e6ec4aaeb0dbf047788725382ab3ce814c4931dc8e9c.jpg",
+      link: "https://www.xbox.com/en-US/games/store/for-honor/9N3DWR830CVN/0010"
+    },
+    {
+      id: 127,
+      name: "XDefiant",
+      yearsPlayed: ["2024"],
+      releaseYear: "2024",
+      image: "https://m.economictimes.com/thumb/msid-109412477,width-1600,height-900,resizemode-4,imgsize-67354/xdefiant-server-test-session-this-is-what-we-know-so-far.jpg",
+      link: "https://store.playstation.com/en/concept/10002211"
+    },
+    {
+      id: 128,
+      name: "Fears to Fathom: Northwood Hitchhike",
+      yearsPlayed: ["2024"],
+      releaseYear: "2022",
+      image: "https://m.media-amazon.com/images/M/MV5BMmE1MzE3NjctMWM4YS00MGJlLTkxOGUtMjEwMjQ3N2RmMGVhXkEyXkFqcGc@._V1_.jpg",
+      link: "https://store.steampowered.com/app/1763050/Fears_to_Fathom__Norwood_Hitchhike/"
+    },
+    {
+      id: 129,
+      name: "Fears to Fathom: Ironbark Lookout",
+      yearsPlayed: ["2024"],
+      releaseYear: "2024",
+      image: "https://m.media-amazon.com/images/M/MV5BOWQ3ZTA0YTEtMDhhYy00ZmZiLTg2MjEtNWQxOWE1Nzc2ZDAwXkEyXkFqcGc@._V1_.jpg",
+      link: "https://store.steampowered.com/app/2506160/Fears_to_Fathom__Ironbark_Lookout/"
+    },
+    {
+      id: 130,
+      name: "Fears to Fathom: Carson House",
+      yearsPlayed: ["2024"],
+      releaseYear: "2023",
+      image: "https://m.media-amazon.com/images/M/MV5BNGZjOTBlYTctODcxNy00YTM1LTg2YTYtZTI3NzBmMDA4ZmJmXkEyXkFqcGc@._V1_.jpg",
+      link: "https://store.steampowered.com/app/2120900/Fears_to_Fathom__Carson_House/"
+    },
+    {
+      id: 131,
+      name: "Sifu",
+      yearsPlayed: ["2024"],
+      releaseYear: "2022",
+      image: "https://cdn1.epicgames.com/offer/b7b42e2078524ab386a8b2a9856ef557/EGS_SIFUStandardEdition_Sloclap_S4_1200x1600-32aca69d756abfcc25f8581942a6162b_1200x1600-32aca69d756abfcc25f8581942a6162b",
+      link: "https://store.playstation.com/en-us/product/UP2703-PPSA05132_00-4856299050197748"
+    },
+    {
+      id: 132,
+      name: "Assassin's Creed III Remastered",
+      yearsPlayed: ["2024"],
+      releaseYear: "2012",
+      image: "https://cdn1.epicgames.com/offer/anise/AC3Remastered_Store_Portrait_1200x1600_1200x1600-9c929e1f34aac0f0a40fc4b708f53951",
+      link: "https://store.playstation.com/en-us/product/UP0001-CUSA11711_00-AC3GAMEPS4000001"
+    },
+    {
+      id: 133,
+      name: "Black Myth Wukong",
+      yearsPlayed: ["2024"],
+      releaseYear: "2024",
+      image: "https://i.redd.it/ymm36cwov2ld1.png",
+      link: "https://store.playstation.com/en-us/product/HP6545-PPSA23226_00-GAME000000000000"
+    },
+    {
+      id: 134,
+      name: "Star Wars Outlaws",
+      yearsPlayed: ["2024"],
+      releaseYear: "2024",
+      image: "https://lumiere-a.akamaihd.net/v1/images/outlaws-key-art-main-02_e3c5cd6c.jpeg?region=0,0,1024,1024",
+      link: "https://www.xbox.com/en-US/games/store/star-wars-outlaws/9P87S3NP6SR2"
+    },
+    {
+      id: 135,
+      name: "Chuxie",
+      yearsPlayed: ["2024"],
+      releaseYear: "2024",
+      image: "https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/chuxx.png",
+      link: "https://store.steampowered.com/app/2969160/CHUXIE/"
+    },
+    {
+      id: 136,
+      name: "Five Nights at Freddy's Into the Pit",
+      yearsPlayed: ["2024"],
+      releaseYear: "2024",
+      image: "https://m.media-amazon.com/images/M/MV5BZmI0NjIyMTYtM2I5MS00ZjU4LTg2ZmMtM2NkYmFhZWYzNjcwXkEyXkFqcGc@._V1_.jpg",
+      link: "https://store.steampowered.com/app/2638370/Five_Nights_at_Freddys_Into_the_Pit/"
+    },
+    {
+      id: 137,
+      name: "Another Crab's Treasure",
+      yearsPlayed: ["2024"],
+      releaseYear: "2024",
+      image: "https://upload.wikimedia.org/wikipedia/en/0/01/Another_Crab%27s_Treasure_poster.webp",
+      link: "https://store.playstation.com/en-us/product/UP7131-PPSA20422_00-ANOTHERCRABS4US5"
+    },
+    {
+      id: 138,
+      name: "Dragonball Sparking! Zero",
+      yearsPlayed: ["2024"],
+      releaseYear: "2024",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202405/2216/cbb03393f0ab1149f2b89a8194ce19e596a24fa5bec6526a.png",
+      link: "https://store.playstation.com/en-us/product/UP0700-PPSA15211_00-DRAGONBALLSPARK0"
+    },
+    {
+      id: 139,
+      name: "Doki Doki Literature Club!",
+      yearsPlayed: ["2024"],
+      releaseYear: "2017",
+      image: "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_DokiDokiLiteratureClubPlus_TeamSalvato_S2_1200x1600-9c6fa6ac4b26e9ad4fb0d3e35797dcac",
+      link: "https://store.playstation.com/en-us/product/UP0604-PPSA03732_00-DOKIDOKILITCLUBP"
+    },
+    {
+      id: 140,
+      name: "The Classrooms",
+      yearsPlayed: ["2024"],
+      releaseYear: "2022",
+      image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2099110/header.jpg?t=1738752037",
+      //image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2099110/header.jpg?t=1729526854",
+      link: "https://store.steampowered.com/app/2099110/The_Classrooms/"
+    },
+    {
+      id: 141,
+      name: "Fears to Fathom: Woodbury Getaway",
+      yearsPlayed: ["2024"],
+      releaseYear: "2024",
+      image: "https://m.media-amazon.com/images/M/MV5BNTBlYTk3OGMtYTEzMi00NTM1LWIxNTEtZGFjMDlmYzdlMmRhXkEyXkFqcGc@._V1_.jpg",
+      link: "https://store.steampowered.com/app/2961530/Fears_to_Fathom__Woodbury_Getaway/"
+    },
+    {
+      id: 142,
+      name: "Escape The Backrooms",
+      yearsPlayed: ["2024"],
+      releaseYear: "2022",
+      image: "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/12/mixcollage-10-dec-2024-07-34-pm-3390.jpg",
+      link: "https://store.steampowered.com/app/1943950/Escape_the_Backrooms/"
+    },
+    {
+      id: 143,
+      name: "Watch Dogs 2",
+      yearsPlayed: ["2024"],
+      releaseYear: "2024",
+      //image: "https://image.api.playstation.com/cdn/UP0001/CUSA04459_00/qBxvfDJJ9dbavai6xsWOcWaxRDGRb7h0.png",
+      image: "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2016/11/wd25-e1479104909488.jpg",
+      link: "https://store.playstation.com/en-us/product/UP0001-CUSA04459_00-WD2FULLGAME00000"
+    },
+    {
+      id: 144,
+      name: "Marvel Rivals",
+      yearsPlayed: ["2024"],
+      releaseYear: "2024",
+      image: "https://blog.playstation.com/uploads/2024/12/464ca49c88916fbdb96def8a57e2734eb94fa914.jpeg",
+      link: "https://store.playstation.com/en-us/product/UB0335-PPSA21669_00-0320312678245089"
+    },
 ];
